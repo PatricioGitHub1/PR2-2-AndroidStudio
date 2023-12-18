@@ -47,6 +47,14 @@ public class MainActivity extends AppCompatActivity {
                 openSomeActivityForResult(v);
             }
         });
+
+        /*Button buttonCamera = findViewById(R.id.button2);
+        buttonCamera.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.i("info", "boton camera");
+            }
+        });*/
     }
     // si va
     public void openSomeActivityForResult(View view) {
